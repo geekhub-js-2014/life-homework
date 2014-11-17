@@ -30,8 +30,7 @@
     }
 
     function step() {
-        map = Life.step(map);
-        iteration++;
+        map = Life.step(map, iteration++);
         show();
     }
 
